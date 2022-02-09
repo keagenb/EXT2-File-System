@@ -1,0 +1,18 @@
+# show file contents of disk2
+
+sudo mount disk2 /mnt
+sudo ls -l /mnt
+
+sudo cat /mnt/tiny
+read dummy
+
+sudo cat /mnt/small
+read dummy
+
+sudo cat /mnt/large
+read dummy
+
+sudo cat /mnt/huge
+read dummy
+
+sudo umount /mnt
